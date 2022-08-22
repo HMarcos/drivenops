@@ -32,6 +32,11 @@ DrivenOps é um projeto em que se aloca uma aplicação bem simples que faz o so
 
 O objetivo desse repositório é implementar as técnicas de **CI/CD** utilizando a cultura **devops**. Assim, para fazer um merge na branch **main** é necessário que um PR passe nos testes e seja aprovado, assim como, o processo de deploy é automatizado contactando um servidor na AWS.
 
+## Deploy
+
+* **Front-end:** http://student-selector.tk
+* **Back-end:** http://student-selector.tk/api
+
 ## :rocket: Rotas
 
 ### Estudantes
