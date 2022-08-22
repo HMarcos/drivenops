@@ -11,7 +11,7 @@ services:
       - pg_students:/var/lib/postgresql/data
 
   student_selector_api:
-    container_name: student-selector_api
+    container_name: student_selector_api
     build: ./back-end
     ports:
       - 5000:5000
