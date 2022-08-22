@@ -15,7 +15,7 @@
     "start": "npm run prisma:deploy && npm run prisma:seed && node dist/src/server.js"
   },
   "prisma": {
-    "seed": "ts-node prisma/seed.ts"
+    "seed": "node dist/prisma/seed.js"
   },
   "keywords": [],
   "author": "",
